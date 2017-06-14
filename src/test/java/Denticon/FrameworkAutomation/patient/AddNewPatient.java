@@ -1,5 +1,6 @@
 package Denticon.FrameworkAutomation.patient;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import Denticon.FrameworkAutomation.SeleniumSuite;
@@ -81,8 +82,9 @@ public class AddNewPatient{
 	 			flag=CommonMethods.clickIfEnable(IAddPatient.BTN_Finish);			
 	 			 
 	 		} catch (Exception e) { 
-	 			// TODO Auto-generated catch block 
 	 			e.printStackTrace(); 
+	 			Assert.fail(); 
+	 			
 	 		}
 	 	}
 }

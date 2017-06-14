@@ -1,7 +1,9 @@
 package Denticon.FrameworkAutomation.login;
 
 
-import java.util.Properties; 
+import java.util.Properties;
+
+import org.junit.Assert;
 import org.testng.annotations.Test;
 
 import Denticon.FrameworkAutomation.SeleniumSuite;
@@ -52,8 +54,8 @@ import com.relevantcodes.extentreports.LogStatus;
  			Thread.sleep(3000); 
  
  
- 			CommonMethods.isElementPresent(ILogin.LNK_SIGNOFF); 
- 			logger.log(LogStatus.PASS, "Successfully logged into Denticon"); 
+ 			Assert.assertTrue(CommonMethods.isElementPresent(ILogin.LNK_SIGNOFF)); 
+ 			//logger.log(LogStatus.PASS, "Successfully logged into Denticon"); 
  			CommonMethods.closeReport(repo, logger); 
  			Thread.sleep(3000); 
  

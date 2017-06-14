@@ -1,6 +1,7 @@
 package Denticon.FrameworkAutomation.login;
 
 import org.openqa.selenium.Alert;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import Denticon.FrameworkAutomation.pom.ILogin;
@@ -15,9 +16,9 @@ public class Logout {
 	 			alert.accept(); 
 	 			Thread.sleep(2000); 
 	 		} catch (Exception e) { 
- 
-	 
-				e.printStackTrace(); 
+	 			e.printStackTrace(); 
+	 			Assert.fail();
+				
 	} 
 	 	}
 }
