@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="Denticon.FrameworkAutomation.charting.SPatientCharting"/>
+      <class name="Denticon.FrameworkAutomation.pom.ISetup"/>
+      <class name="Denticon.FrameworkAutomation.pom.IAddPatient"/>
+      <class name="Denticon.FrameworkAutomation.scheduler.FindAppointment"/>
+      <class name="Denticon.FrameworkAutomation.pom.IReport"/>
+      <class name="Denticon.FrameworkAutomation.reporting.ViewReport"/>
+      <class name="Denticon.FrameworkAutomation.SeleniumSuite"/>
+      <class name="Denticon.FrameworkAutomation.pom.ICharting"/>
+      <class name="Denticon.FrameworkAutomation.login.Logout"/>
+      <class name="Denticon.FrameworkAutomation.ReadExcelTest"/>
+      <class name="Denticon.FrameworkAutomation.DriverManager"/>
+      <class name="Denticon.FrameworkAutomation.pom.ITransaction"/>
+      <class name="Denticon.FrameworkAutomation.pom.ILogin"/>
+      <class name="Denticon.FrameworkAutomation.scheduler.AddAppointment"/>
+      <class name="Denticon.FrameworkAutomation.utilities.CommonMethods"/>
+      <class name="Denticon.FrameworkAutomation.Config"/>
+      <class name="Denticon.FrameworkAutomation.patient.AddNewPatient"/>
+      <class name="Denticon.FrameworkAutomation.pom.IUtilities"/>
+      <class name="Denticon.FrameworkAutomation.login.Login"/>
+      <class name="Denticon.FrameworkAutomation.pom.IScheduler"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Denticon.FrameworkAutomation.patient.AddNewPatient">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Denticon.FrameworkAutomation.patient.AddNewPatient -->
+      <class name="Denticon.FrameworkAutomation.charting.SPatientCharting">
+        <methods>
+          <include name="verifyPatientChartingTab"/>
+        </methods>
+      </class> <!-- Denticon.FrameworkAutomation.charting.SPatientCharting -->
+      <class name="Denticon.FrameworkAutomation.reporting.ViewReport">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Denticon.FrameworkAutomation.reporting.ViewReport -->
+      <class name="Denticon.FrameworkAutomation.scheduler.FindAppointment">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Denticon.FrameworkAutomation.scheduler.FindAppointment -->
+      <class name="Denticon.FrameworkAutomation.login.Login">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Denticon.FrameworkAutomation.login.Login -->
+      <class name="Denticon.FrameworkAutomation.login.Logout">
+        <methods>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- Denticon.FrameworkAutomation.login.Logout -->
+      <class name="Denticon.FrameworkAutomation.scheduler.AddAppointment">
+        <methods>
+          <include name="appointments"/>
+        </methods>
+      </class> <!-- Denticon.FrameworkAutomation.scheduler.AddAppointment -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

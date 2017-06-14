@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="login Denticon" duration-ms="36085" started-at="2017-06-08T15:46:49Z" finished-at="2017-06-08T15:47:25Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="36085" started-at="2017-06-08T15:46:49Z" finished-at="2017-06-08T15:47:25Z">
+      <class name="Denticon.FrameworkAutomation.SeleniumSuite">
+        <test-method status="PASS" signature="setUpSuite(java.lang.String, java.lang.String)[pri:0, instance:Denticon.FrameworkAutomation.SeleniumSuite@5442a311]" name="setUpSuite" is-config="true" duration-ms="22320" started-at="2017-06-08T08:46:49Z" finished-at="2017-06-08T08:47:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://dev.denticon.com/aspx/home/login.aspx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Denticon.FrameworkAutomation.SeleniumSuite@5442a311]" name="afterTest" is-config="true" duration-ms="3068" started-at="2017-06-08T08:47:22Z" finished-at="2017-06-08T08:47:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Denticon.FrameworkAutomation.SeleniumSuite -->
+      <class name="Denticon.FrameworkAutomation.login.Logout">
+        <test-method status="PASS" signature="logout()[pri:0, instance:Denticon.FrameworkAutomation.login.Logout@1a968a59]" name="logout" duration-ms="94" started-at="2017-06-08T08:47:22Z" finished-at="2017-06-08T08:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Denticon.FrameworkAutomation.login.Logout -->
+      <class name="Denticon.FrameworkAutomation.login.Login">
+        <test-method status="PASS" signature="login()[pri:0, instance:Denticon.FrameworkAutomation.login.Login@548e7350]" name="login" duration-ms="10587" started-at="2017-06-08T08:47:12Z" finished-at="2017-06-08T08:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Denticon.FrameworkAutomation.login.Login -->
+    </test> <!-- Login -->
+  </suite> <!-- login Denticon -->
+</testng-results>
